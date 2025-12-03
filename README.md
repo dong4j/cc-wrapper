@@ -1,6 +1,6 @@
 # CC Wrapper
 
-一个 IntelliJ IDEA 插件，用于在 IDE 中集成 Codex CLI，通过 MCP (Model Context Protocol) 协议与 Codex 通信。
+一个 IntelliJ IDEA 插件，用于在 IDEA 中集成 Codex CLI 和 Claude Code
 
 ## 功能特性
 
@@ -11,9 +11,9 @@
 
 ## 前置要求
 
-- IntelliJ IDEA 2022.3 或更高版本
+- IntelliJ IDEA 2024.2 或更高版本
 - OpenAI Codex CLI 已安装并在系统 PATH 中可用
-  - 安装方法：参考 [OpenAI Codex CLI 文档](https://github.com/openai/codex)
+    - 安装方法：参考 [OpenAI Codex CLI 文档](https://github.com/openai/codex)
 
 ## 安装
 
@@ -25,16 +25,16 @@
 ## 使用方法
 
 1. **启动 Codex**：
-   - 点击工具栏上的 "Launch Codex" 按钮
-   - 或通过 `Tools` → `Launch Codex` 菜单
+    - 点击工具栏上的 "Launch Codex" 按钮
+    - 或通过 `Tools` → `Launch Codex` 菜单
 
 2. **发送消息**：
-   - 在 Tool Window 底部的输入框中输入消息
-   - 按 Enter 或点击 "Send" 按钮发送
+    - 在 Tool Window 底部的输入框中输入消息
+    - 按 Enter 或点击 "Send" 按钮发送
 
 3. **查看输出**：
-   - 所有消息会显示在 Tool Window 的表格中
-   - 包括用户消息、Codex 回复、命令执行结果等
+    - 所有消息会显示在 Tool Window 的表格中
+    - 包括用户消息、Codex 回复、命令执行结果等
 
 ## 技术架构
 
